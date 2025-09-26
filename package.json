@@ -1,0 +1,19 @@
+{
+  "name": "postgressql_usernames_the_odin_node_course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karenhirayama/postgresSQL_usernames_the_odin_node_course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karenhirayama/postgresSQL_usernames_the_odin_node_course/issues"
+  },
+  "homepage": "https://github.com/karenhirayama/postgresSQL_usernames_the_odin_node_course#readme",
+  "description": ""
+}
