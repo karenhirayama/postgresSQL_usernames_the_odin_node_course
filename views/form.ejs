@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Username</title>
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Add New Username</h1>
+            
+            <form method="POST" action="/create" class="user-form">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input 
+                        type="text" 
+                        id="username" 
+                        name="username" 
+                        required 
+                        maxlength="50"
+                        placeholder="Enter username"
+                    >
+                </div>
+                
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Create Username</button>
+                    <a href="/" class="btn btn-secondary">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
